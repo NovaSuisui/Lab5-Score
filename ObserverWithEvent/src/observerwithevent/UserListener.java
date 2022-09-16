@@ -12,6 +12,6 @@ package observerwithevent;
 public class UserListener implements ScoreListener{
     @Override
     public void update(ScoreEvent e){
-        System.out.println("Senior : "+e.getSomeData());
+        System.out.println("Score with Event : "+e.getSomeData());
     }
 }
